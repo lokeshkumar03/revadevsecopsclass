@@ -5,7 +5,7 @@ on:
 
 jobs:
   component-scanning-job:
-    name: Component Scanning Job
+    name: Component Scanning Job node-audit
     runs-on: ubuntu-latest
     steps:
       - name: Checkout the Code
